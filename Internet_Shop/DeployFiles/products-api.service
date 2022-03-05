@@ -1,0 +1,11 @@
+[Unit] 
+Description=Internet_Shop
+
+[Service] 
+WorkingDirectory=/var/www/Internet_Shop
+ExecStart=/usr/bin/dotnet /var/www/Internet_Shop/Internet_Shop.dll
+SyslogIdentifier=offershare-web-app
+Environment=ASPNETCORE_ENVIRONMENT=Production 
+
+[Install] 
+WantedBy=multi-user.target
