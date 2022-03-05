@@ -1,0 +1,353 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Internet_Shop",
+    "version": "v1"
+  },
+  "host": "bug-tracker.endpoints.strange-anchor-343214.cloud.goog",
+  "paths": {
+    "/api/Product_data/Add_In_Shopping_Cart": {
+      "operationId": "Add_In_Shopping_Cart",
+      "post": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "query",
+            "name": "id_cart",
+            "type": "integer"
+          },
+          {
+            "format": "int32",
+            "in": "query",
+            "name": "id_product",
+            "type": "integer"
+          },
+          {
+            "format": "int32",
+            "in": "query",
+            "name": "quantity",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product_in_cart"
+            }
+          }
+        },
+        "tags": [
+          "Product_data"
+        ]
+      }
+    },
+    "/api/Product_data/Delete_From_Shopping_Cart/{id}": {
+      "operationId": "Delete_From_Shopping_Cart_By_Id",
+      "delete": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product_in_cart"
+            }
+          }
+        },
+        "tags": [
+          "Product_data"
+        ]
+      }
+    },
+    "/api/Products/Add_Product": {
+      "operationId": "Add_Product",
+      "post": {
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        },
+        "tags": [
+          "Products"
+        ]
+      }
+    },
+    "/api/Products/Delete_Product/{id}": {
+      "operationId": "Delete_Product",
+      "delete": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        },
+        "tags": [
+          "Products"
+        ]
+      }
+    },
+    "/api/Products/Edit_Product": {
+      "operationId": "Edit_Product",
+      "put": {
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        },
+        "tags": [
+          "Products"
+        ]
+      }
+    },
+    "/api/Products/Get_All_Products": {
+      "operationId": "Get_All_Products",
+      "get": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Product"
+              },
+              "type": "array"
+            }
+          }
+        },
+        "tags": [
+          "Products"
+        ]
+      }
+    },
+    "/api/Products/Get_Product/{id}": {
+      "operationId": "Get_product_By_Id",
+      "get": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        },
+        "tags": [
+          "Products"
+        ]
+      }
+    },
+    "/api/Shopping_cart/Add_Shopping_Cart": {
+      "operationId": "Add_Shopping_Cart",
+      "post": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "address",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Shopping_cart"
+            }
+          }
+        },
+        "tags": [
+          "Shopping_cart"
+        ]
+      }
+    },
+    "/api/Shopping_cart/Delete_Shopping_Cart/{id}": {
+      "operationId": "Delete_Shopping_Cart_By_id",
+      "delete": {
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Shopping_cart"
+            }
+          }
+        },
+        "tags": [
+          "Shopping_cart"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "Product": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string",
+          "x-nullable": true
+        },
+        "price": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "quantity": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "Product_in_cart": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "id_cart": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "id_product": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "quantity": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "Shopping_cart": {
+      "additionalProperties": false,
+      "properties": {
+        "address": {
+          "type": "string",
+          "x-nullable": true
+        },
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "x-components": {}
+}
