@@ -34,3 +34,44 @@ F:\Disc Andrey\Андреины игры\Вова\Андреины файлы\У
 F:\Disc Andrey\Андреины игры\Вова\Андреины файлы\Университет 4 курс\8 семестр\РСиОТ\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\Disc Andrey\Андреины игры\Вова\Андреины файлы\Университет 4 курс\8 семестр\РСиОТ\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\Disc Andrey\Андреины игры\Вова\Андреины файлы\Университет 4 курс\8 семестр\РСиОТ\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.MvcApplicationPartsAssemblyInfo.cs
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\appsettings.Development.json
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\appsettings.json
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.exe
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.deps.json
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.runtimeconfig.json
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.runtimeconfig.dev.json
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\ref\Internet_Shop.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Internet_Shop.pdb
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\EFCore.NamingConventions.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Humanizer.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\MySqlConnector.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Npgsql.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\rsiot\Internet_Shop\Internet_Shop\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.csproj.AssemblyReference.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.GeneratedMSBuildEditorConfig.editorconfig
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.AssemblyInfoInputs.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.AssemblyInfo.cs
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.csproj.CoreCompileInputs.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.MvcApplicationPartsAssemblyInfo.cs
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.MvcApplicationPartsAssemblyInfo.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\staticwebassets\Internet_Shop.StaticWebAssets.Manifest.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\staticwebassets\Internet_Shop.StaticWebAssets.xml
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\scopedcss\bundle\Internet_Shop.styles.css
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.RazorTargetAssemblyInfo.cache
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.csproj.CopyComplete
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.dll
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\ref\Internet_Shop.dll
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.pdb
+F:\rsiot\Internet_Shop\Internet_Shop\obj\Debug\net5.0\Internet_Shop.genruntimeconfig.cache

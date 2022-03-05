@@ -33,6 +33,9 @@ namespace Internet_Shop
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Internet_Shop", Version = "v1" });
             });
+            services.AddDbContext<ApplicationContext>(
+                options=>options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
+                );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

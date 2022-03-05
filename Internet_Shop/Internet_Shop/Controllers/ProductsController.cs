@@ -15,27 +15,21 @@ namespace Internet_Shop.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        ApplicationContext db;
+        ApplicationContext _db;
 
         private readonly ILogger<ProductsController> _logger;
         
-        public ProductsController(ILogger<ProductsController> logger)
+        public ProductsController(ApplicationContext db, ILogger<ProductsController> logger)
         {
-            db = new ApplicationContext();
+            _db = db;
             _logger = logger;
-            /*if (!db.Products.Any())
-            {
-                db.Products.Add(new Product { Name = "Book 2", Price = 31, Quantity = 20 });
-                db.Products.Add(new Product { Name = "Toy car red", Price = 101, Quantity = 25});
-                db.SaveChanges();
-            }*/
         }
         // получение всего списка товаров
         [HttpGet("Get_All_Products")]
         public async Task<ActionResult<IEnumerable<Product>>> Get()
         {
             _logger.LogInformation(Request.GetDisplayUrl());
-            return await db.Products.ToListAsync();
+            return await _db.Products.ToListAsync();
         }
 
         // GET api/products/5 получение товара по id
@@ -43,7 +37,7 @@ namespace Internet_Shop.Controllers
         public async Task<ActionResult<Product>> Get(int id)
         {
             _logger.LogInformation(Request.GetDisplayUrl());
-            Product product = await db.Products.FirstOrDefaultAsync(x => x.Id == id);
+            Product product = await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
             if (product == null)
                 return NotFound();
             return new ObjectResult(product);
@@ -59,8 +53,8 @@ namespace Internet_Shop.Controllers
                 return BadRequest();
             }
 
-            db.Products.Add(product);
-            await db.SaveChangesAsync();
+            _db.Products.Add(product);
+            await _db.SaveChangesAsync();
             return Ok(product);
         }
 
@@ -73,13 +67,13 @@ namespace Internet_Shop.Controllers
             {
                 return BadRequest();
             }
-            if (!db.Products.Any(x => x.Id == product.Id))
+            if (!_db.Products.Any(x => x.Id == product.Id))
             {
                 return NotFound();
             }
 
-            db.Update(product);
-            await db.SaveChangesAsync();
+            _db.Update(product);
+            await _db.SaveChangesAsync();
             return Ok(product);
         }
 
@@ -88,13 +82,13 @@ namespace Internet_Shop.Controllers
         public async Task<ActionResult<Product>> Delete(int id)
         {
             _logger.LogInformation(Request.GetDisplayUrl());
-            Product product = db.Products.FirstOrDefault(x => x.Id == id);
+            Product product = _db.Products.FirstOrDefault(x => x.Id == id);
             if (product == null)
             {
                 return NotFound();
             }
-            db.Products.Remove(product);
-            await db.SaveChangesAsync();
+            _db.Products.Remove(product);
+            await _db.SaveChangesAsync();
             return Ok(product);
         }
 

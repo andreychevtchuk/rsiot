@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CRSqKZSlBcbP1aCO/FbOi3vkbimn0nsqlOU8MEwv/c2qaIJ8i+FevFQRmrN9Y6iEMEyJUdNRwq/oQmz7TZ9g4A==",
+  "dgSpecHash": "AOCPE0VewxCoXloRf/h6Xs5MVZr1dPcmF6LlNeThO6MvPnirKr2kpz7BsOD4My4yZhG7llAOF/yOXVoG/h5tuA==",
   "success": true,
-  "projectFilePath": "F:\\Disc Andrey\\Андреины игры\\Вова\\Андреины файлы\\Университет 4 курс\\8 семестр\\РСиОТ\\Internet_Shop\\Internet_Shop\\Internet_Shop.csproj",
+  "projectFilePath": "F:\\rsiot\\Internet_Shop\\Internet_Shop\\Internet_Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\efcore.namingconventions\\5.0.2\\efcore.namingconventions.5.0.2.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
