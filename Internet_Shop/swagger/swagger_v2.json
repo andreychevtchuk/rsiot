@@ -7,8 +7,8 @@
   "host": "bug-tracker.endpoints.strange-anchor-343214.cloud.goog",
   "paths": {
     "/api/Product_data/Add_In_Shopping_Cart": {
-      "operationId": "Add_In_Shopping_Cart",
       "post": {
+        "operationId": "Add_In_Shopping_Cart",
         "produces": [
           "text/plain",
           "application/json",
@@ -48,8 +48,8 @@
       }
     },
     "/api/Product_data/Delete_From_Shopping_Cart/{id}": {
-      "operationId": "Delete_From_Shopping_Cart_By_Id",
       "delete": {
+        "operationId": "Delete_From_Shopping_Cart_By_Id",
         "produces": [
           "text/plain",
           "application/json",
@@ -78,8 +78,8 @@
       }
     },
     "/api/Products/Add_Product": {
-      "operationId": "Add_Product",
       "post": {
+        "operationId": "Add_Product",
         "consumes": [
           "application/json",
           "text/json"
@@ -112,8 +112,8 @@
       }
     },
     "/api/Products/Delete_Product/{id}": {
-      "operationId": "Delete_Product",
       "delete": {
+        "operationId": "Delete_Product",
         "produces": [
           "text/plain",
           "application/json",
@@ -142,8 +142,8 @@
       }
     },
     "/api/Products/Edit_Product": {
-      "operationId": "Edit_Product",
       "put": {
+        "operationId": "Edit_Product",
         "consumes": [
           "application/json",
           "text/json"
@@ -176,8 +176,8 @@
       }
     },
     "/api/Products/Get_All_Products": {
-      "operationId": "Get_All_Products",
       "get": {
+        "operationId": "Get_All_Products",
         "produces": [
           "text/plain",
           "application/json",
@@ -201,8 +201,8 @@
       }
     },
     "/api/Products/Get_Product/{id}": {
-      "operationId": "Get_product_By_Id",
       "get": {
+        "operationId": "Get_product_By_Id",
         "produces": [
           "text/plain",
           "application/json",
@@ -231,8 +231,8 @@
       }
     },
     "/api/Shopping_cart/Add_Shopping_Cart": {
-      "operationId": "Add_Shopping_Cart",
       "post": {
+        "operationId": "Add_Shopping_Cart",
         "produces": [
           "text/plain",
           "application/json",
@@ -259,8 +259,8 @@
       }
     },
     "/api/Shopping_cart/Delete_Shopping_Cart/{id}": {
-      "operationId": "Delete_Shopping_Cart_By_id",
       "delete": {
+        "operationId": "Delete_Shopping_Cart_By_id",
         "produces": [
           "text/plain",
           "application/json",
