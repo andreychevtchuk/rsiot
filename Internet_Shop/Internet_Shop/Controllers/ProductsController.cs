@@ -48,6 +48,7 @@ namespace Internet_Shop.Controllers
         public async Task<ActionResult<Product>> Add(Product product)
         {
             _logger.LogInformation(Request.GetDisplayUrl());
+
             if (product == null)
             {
                 return BadRequest();

@@ -9,8 +9,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Internet_Shop.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20220305130840_1_Products")]
-    partial class _1_Products
+    [Migration("20220305151122_Add_Products_Db_Model")]
+    partial class Add_Products_Db_Model
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Internet_Shop.Migrations
 {
-    public partial class _1_Products : Migration
+    public partial class Add_Products_Db_Model : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
