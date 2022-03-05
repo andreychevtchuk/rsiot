@@ -2,9 +2,9 @@
   "swagger": "2.0",
   "info": {
     "title": "Internet_Shop",
-    "version": "v1"
+    "version": "1.0"
   },
-  "host": "bug-tracker.endpoints.strange-anchor-343214.cloud.goog",
+  "host": "products-api.endpoints.strange-anchor-343214.cloud.goog",
   "paths": {
     "/api/Product_data/Add_In_Shopping_Cart": {
       "post": {
